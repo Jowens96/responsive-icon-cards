@@ -32,7 +32,7 @@ img {
   list-style-type: none;
   padding: 0;
   font-family: sans-serif;
-  margin-left: 1em;
+  margin: .75em;
 }
 
 .card {
@@ -53,6 +53,14 @@ p {
 
 @media only screen and (min-width: 25em) {
 
+  .cards {
+    margin: 0 10px;
+  }
+
+  .card-img {
+    padding-right: .5em;
+  }
+
   .card {
     text-align: left;
   }
@@ -70,12 +78,29 @@ p {
 
 @media only screen and (min-width: 38em) {
 
+  .cards {
+    display: inline-block;
+    width: 29%;
+  }
+
+  .card-body {
+    font-size: 110%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
+  .card-body {
+    font-size: 120%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
+
+  .card-body {
+    font-size: 130%;
+  }
 
 }
